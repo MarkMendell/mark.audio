@@ -1,0 +1,28 @@
+audio {
+	margin-left: 5px;
+	padding-top: 3px;
+	vertical-align: middle;
+	width: calc(100% - 39px);
+}
+
+body {
+	font-family: sans-serif;
+}
+
+img[src="sc.png"] {
+	width: 30px;
+}
+
+img[src="voice.svg"], img[src="novoice.svg"] {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+img[src="voice.svg"] {
+	margin: 5px;
+	width: 24px;
+}
+
+img[src="novoice.svg"] {
+	width: 34px;
+}
