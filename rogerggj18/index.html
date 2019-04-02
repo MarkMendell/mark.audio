@@ -1,0 +1,321 @@
+<!doctype html>
+<style>
+body {
+	font-family: sans-serif;
+	margin: 0 auto;
+	max-width: 900px;
+}
+body > div {
+	align-items: center;
+	display: flex;
+	margin: 64px 0;
+}
+body > div > div {
+	padding: 0 8px;
+	width: calc(50% - 8px);
+}
+body > div > :first-child {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+h1 + div {
+	margin-top: 0;
+}
+h2 {
+	margin: 0;
+}
+span {
+	font-family: monospace;
+}
+video {
+	max-height: 300px;
+	max-width: 100%;
+}
+</style>
+<h1>BGM</h1>
+<h2>When Phase 1 level starts and ends:</h2>
+<span>AudioManager.OnPhase1LevelFadeIn</span>
+<br><span>AudioManager.OnPhase1LevelFadeOut</span>
+<h2>When Phase 2 level starts and ends:</h2>
+<span>AudioManager.OnPhase2LevelFadeIn</span>
+<br><span>AudioManager.OnPhase2LevelFadeOut</span>
+<h2>When Phase 3 level starts and ends:</h2>
+<span>AudioManager.OnPhase3LevelFadeIn</span>
+<br><span>AudioManager.OnPhase3LevelFadeOut</span>
+<h2>When Phase 4 level starts and ends:</h2>
+<span>AudioManager.OnPhase4LevelFadeIn</span>
+<br><span>AudioManager.OnPhase4LevelFadeOut</span>
+<h1>SFX</h1>
+<div>
+	<div>
+		<video autoplay loop src="Bomb collect.webm"></video>
+	</div>
+	<div>
+		<h2>Bomb collect:</h2>
+		<span>AudioManager.OnBombCollect</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Bomb.webm"></video>
+	</div>
+	<div>
+		<h2>Bomb:</h2>
+		<span>AudioManager.OnBomb</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Camera sight fadein.webm"></video>
+	</div>
+	<div>
+		<h2>Camera sight fadein:</h2>
+		<span>AudioManager.OnCameraSightFadein</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Dialogue large fadein.webm"></video>
+	</div>
+	<div>
+		<h2>Dialogue large fadein:</h2>
+		<span>AudioManager.OnDialogueLargeFadein</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Dialogue large fadeout.webm"></video>
+	</div>
+	<div>
+		<h2>Dialogue large fadeout:</h2>
+		<span>AudioManager.OnDialogueLargeFadeout</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Dialogue small fadein.webm"></video>
+	</div>
+	<div>
+		<h2>Dialogue small fadein:</h2>
+		<span>AudioManager.OnDialogueSmallFadein</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Dialogue small fadeout.webm"></video>
+	</div>
+	<div>
+		<h2>Dialogue small fadeout:</h2>
+		<span>AudioManager.OnDialogueSmallFadeout</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Enemy dies.webm"></video>
+	</div>
+	<div>
+		<h2>Enemy dies:</h2>
+		<span>AudioManager.OnEnemyDies</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Enemy shoots.webm"></video>
+	</div>
+	<div>
+		<h2>Enemy shoots:</h2>
+		<span>AudioManager.OnEnemyShoots</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Enemy spawns.webm"></video>
+	</div>
+	<div>
+		<h2>Enemy spawns:</h2>
+		<span>AudioManager.OnEnemySpawns</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Ethernet.webm"></video>
+	</div>
+	<div>
+		<h2>Ethernet (start and stop):</h2>
+		<span>AudioManager.OnEthernetStart</span>
+		<br><span>AudioManager.OnEthernetStop</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Gate unlock.webm"></video>
+	</div>
+	<div>
+		<h2>Gate unlock:</h2>
+		<span>AudioManager.OnGateUnlock</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Hit binary gate.webm"></video>
+	</div>
+	<div>
+		<h2>Hit binary gate:</h2>
+		<span>AudioManager.OnHitBinaryGate</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Hit enemy shot.webm"></video>
+	</div>
+	<div>
+		<h2>Hit enemy shot:</h2>
+		<span>AudioManager.OnHitEnemyShot</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Hit key.webm"></video>
+	</div>
+	<div>
+		<h2>Hit key:</h2>
+		<span>AudioManager.OnHitKey</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Hits enemy.webm"></video>
+	</div>
+	<div>
+		<h2>Hits enemy:</h2>
+		<span>AudioManager.OnHitsEnemy</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Key unlock.webm"></video>
+	</div>
+	<div>
+		<h2>Key unlock:</h2>
+		<span>AudioManager.OnKeyUnlock</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Left large speak.webm"></video>
+	</div>
+	<div>
+		<h2>Left large speak:</h2>
+		<span>AudioManager.OnLeftLargeSpeak</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Left small speak.webm"></video>
+	</div>
+	<div>
+		<h2>Left small speak:</h2>
+		<span>AudioManager.OnLeftSmallSpeak</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Next level unlock.webm"></video>
+	</div>
+	<div>
+		<h2>Next level unlock:</h2>
+		<span>AudioManager.OnNextLevelUnlock</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Phase load bar.webm"></video>
+	</div>
+	<div>
+		<h2>Phase load bar (start and stop):</h2>
+		<span>AudioManager.OnPhaseLoadBarStart</span>
+		<br><span>AudioManager.OnPhaseLoadBarStop</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Phase name fadein.webm"></video>
+	</div>
+	<div>
+		<h2>Phase name fadein:</h2>
+		<span>AudioManager.OnPhaseNameFadein</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Phase text fadein.webm"></video>
+	</div>
+	<div>
+		<h2>Phase text fadein:</h2>
+		<span>AudioManager.OnPhaseTextFadein</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Phase text fadeout.webm"></video>
+	</div>
+	<div>
+		<h2>Phase text fadeout:</h2>
+		<span>AudioManager.OnPhaseTextFadeout</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Player dies.webm"></video>
+	</div>
+	<div>
+		<h2>Player dies:</h2>
+		<span>AudioManager.OnPlayerDies</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Player gets hit.webm"></video>
+	</div>
+	<div>
+		<h2>Player gets hit:</h2>
+		<span>AudioManager.OnPlayerGetsHit</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Player shoot.webm"></video>
+	</div>
+	<div>
+		<h2>Player shoot:</h2>
+		<span>AudioManager.OnPlayerShoot</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Right large speak.webm"></video>
+	</div>
+	<div>
+		<h2>Right large speak:</h2>
+		<span>AudioManager.OnRightLargeSpeak</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Right small speak.webm"></video>
+	</div>
+	<div>
+		<h2>Right small speak:</h2>
+		<span>AudioManager.OnRightSmallSpeak</span>
+	</div>
+</div>
+<div>
+	<div>
+		<video autoplay loop src="Spawn.webm"></video>
+	</div>
+	<div>
+		<h2>Spawn:</h2>
+		<span>AudioManager.OnSpawn</span>
+	</div>
+</div>
